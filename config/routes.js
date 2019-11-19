@@ -20,12 +20,12 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'GET /dogs/:type': 'get-breed',
-  'GET /dogs': 'get-all-dogs',
-  'POST /dogs': 'create-dog',
-  'PUT /dogs/:id': 'update-dog',
-  'GET /dogs/:id': 'get-dog',
-  'DELETE /dogs/:id': 'delete-dog'
+  'GET /dogs/:type': 'dog/get-breed',
+  'GET /dogs': 'dog/get-all-dogs',
+  'POST /dogs': 'dog/create-dog',
+  'PUT /dogs/:id': 'dog/update-dog',
+  'GET /dogs/:id': 'dog/get-dog',
+  'DELETE /dogs/:id': 'dog/delete-dog'
 
   /***************************************************************************
   *                                                                          *
